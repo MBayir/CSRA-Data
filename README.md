@@ -5,15 +5,15 @@ in CSRA paper was conducted by splitting log data files into two seperate set by
 set is splitted into two set, the following directory setup will be created.
 
 ## Folder Structure
-/ => root folder.
-/log-university-training/ => training log data for the university web site.
-/log-university-testing/ => testing log data for the university web site.
-/topology-university.txt  => topology data for the university web site. 
-/log-mobile-training/ => training log data for the mobile phone operator web site.
-/log-mobile-testing/ => testing log data for the mobile phone operator web site.
-/topology-mobile.txt => topology data for the mobile phone operator web site.
+* / => root folder.
+* /log-university-training/ => training log data for the university web site.
+* /log-university-testing/ => testing log data for the university web site.
+* /topology-university.txt  => topology data for the university web site. 
+* /log-mobile-training/ => training log data for the mobile phone operator web site.
+* /log-mobile-testing/ => testing log data for the mobile phone operator web site.
+* /topology-mobile.txt => topology data for the mobile phone operator web site.
 
-##Topology File
+## Topology File
 In topology files, each line corresponds to outgoing links of one web page in the format of [fromPage, toPage1, toPage2, ... toPageK].
 
 ## Running Experiments
